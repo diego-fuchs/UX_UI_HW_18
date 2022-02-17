@@ -1,0 +1,116 @@
+/* Body */
+
+body {
+    background-color: #00082F;
+    /* min-height: 100%; */
+}
+
+/* Navigation */
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}
+
+div.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 8, 47, 0.5);
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+    color: white;
+    font-family: aileron, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Hero Image */
+
+.heroImg {
+    height: 500px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../images/Diego\ Fuchs\ -\ Headshot.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 254px 0 0;
+}
+
+.contentItem {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)) ;
+    padding: 2px 5px 20px;
+    color: white;
+}
+
+.contentItem h2 {
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: white;
+}
+
+.contentItem p {
+    font-family: aileron, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+}
+
+button {
+    background-color: #a001ce;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.headerNav {
+    background-image: url(/images/Diego\ Fuchs\ -\ Colour\ Pallet_Gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Footer */
+
+footer {
+    background-color: #00082f;
+    padding: 10px auto;
+    text-align: left;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 50px;
+    color: white;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+footer li {
+    padding: 0 20px;
+}
