@@ -2,7 +2,7 @@
 
 body {
     background-color: #00082F;
-    /* min-height: 100%; */
+    width: 100%;
 }
 
 /* Navigation */
@@ -21,6 +21,9 @@ div.logo {
 
 header {
     background-color: rgba(0, 8, 47, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav {
@@ -42,19 +45,20 @@ nav ul {
 /* Hero Image */
 
 .heroImg {
-    height: 500px;
+    height: calc(100vh - 200px);
+    width: 100%;
     padding: 25px;
 }
 
 .content {
     width: 500px;
     height: 500px;
-    margin: 0 auto;
+    margin: 100px  auto 0;
     background-image: url(../images/Diego\ Fuchs\ -\ Headshot.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 254px 0 0;
+    padding: 255px 0 0;
 }
 
 .contentItem {
@@ -92,12 +96,151 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Skills */
+
+.mySkills h1 {
+    font-family: Georgia, serif;
+    color: white;
+    text-align: center;
+}
+
+.mySkills {
+    margin: 50px auto;
+}
+#dropDown {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: aileron, sans-serif;
+    width: 33%;
+}
+
+#toggle {
+    background-color: #040481;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+}
+
+#dropDown li {
+    border: 1px solid darkgrey;
+    padding: 15px;
+    font-weight: 500;
+    background-color: white;
+    color: #040481;
+    text-align: center;
+}
+
+.research .fa-circle-plus {
+    width: 30px;
+    padding-left: 30px;
+    color: #a001ce;
+}
+
+.definition .fa-circle-plus {
+    width: 30px;
+    padding-left: 30px;
+    color: #00E0D1;
+}
+
+.visualDesign .fa-circle-plus {
+    width: 30px;
+    padding-left: 30px;
+    color: #C2E812;
+}
+
+.flexContainer .container {
+    margin: 0 30px;
+}
+
+.mySkills .flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Work */
+
+.myWork {
+    margin: 100px 0;
+}
+.myWork h1 {
+    font-family: Georgia, serif;
+    color: white;
+    font-size: xx-large;
+}
+
+.myWorkTitle {
+    text-align: center;
+}
+
+.workGrid p {
+    font-family: aileron, sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+    color: white;
+}
+
+.workGrid {
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 auto;
+    display: grid;
+    grid-gap: 100px 20px;
+    grid-template-areas:
+    "terraImg terraImg terraText"
+    "kyndliText kyndliImg kyndliImg"
+    "craImg craImg craText";
+}
+
+#terraImg {
+    grid-area: terraImg;
+    justify-content: flex-end;
+}
+
+#terraText {
+    grid-area: terraText;
+    justify-items: end;
+}
+
+#kyndliImg {
+    grid-area: kyndliImg;
+}
+
+#kyndliText {
+    grid-area: kyndliText;
+}
+
+#craImg {
+    grid-area: craImg;
+}
+
+#craText {
+    grid-area: craText;
+}
+
+.workGridArea {
+    align-items: center;
+}
+
+
 /* Footer */
 
 footer {
     background-color: #00082f;
     padding: 10px auto;
     text-align: left;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 footer ul {
