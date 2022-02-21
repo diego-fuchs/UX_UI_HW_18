@@ -45,7 +45,7 @@ nav ul {
 /* Hero Image */
 
 .heroImg {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     width: 100%;
     padding: 25px;
 }
@@ -54,7 +54,7 @@ nav ul {
     width: 500px;
     height: 500px;
     margin: 100px  auto 0;
-    background-image: url(../images/Diego\ Fuchs\ -\ Headshot.jpg);
+    background-image: url(../images/df_headshot.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -92,7 +92,7 @@ button {
 }
 
 .headerNav {
-    background-image: url(/images/Diego\ Fuchs\ -\ Colour\ Pallet_Gradient.png);
+    background-image: url(/images/bg_gradient.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -231,7 +231,7 @@ button {
 }
 
 .workGridArea {
-    align-items: center;
+    justify-content: start;
 }
 
 
